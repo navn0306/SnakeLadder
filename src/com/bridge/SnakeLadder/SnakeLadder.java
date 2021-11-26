@@ -3,12 +3,11 @@ package com.bridge.SnakeLadder;
 public class SnakeLadder {
 
     public static void main(String[] args) {
-        int position = 0 ;
-        int Min = 1, Max = 6;
+        int Start_Position = 0;
 
-        double number =  Min + (int)(Math.random() * (( Max - Min) + 1));
+        int Dice_Number = (int) (Math.random() * 6 + 1);
 
-        System.out.println(" Position of Player is :" +position);
-        System.out.println(" Player got the number is :" +number);
+        System.out.println(" Position of Player is :" + Start_Position);
+        System.out.println(" Player got the number is :" + Dice_Number);
     }
 }
