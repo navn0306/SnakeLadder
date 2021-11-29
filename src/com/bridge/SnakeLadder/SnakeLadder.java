@@ -22,10 +22,10 @@ public class SnakeLadder {
                 }
                 System.out.println("IS_SNAKE : " + currentPosition);
             } else if (option == IS_LADDER) {
-                if (currentPosition < 100) {
+                if (currentPosition + Dice_Number <= 100) {
                     currentPosition += Dice_Number;
                 } else {
-                    currentPosition -= Dice_Number;
+                    System.out.println("No Play");
                 }
                 System.out.println("IS_LADDER : " + currentPosition);
             } else {
